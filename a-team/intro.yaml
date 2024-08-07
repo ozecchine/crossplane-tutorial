@@ -6,7 +6,7 @@ metadata:
 spec:
   id: cluster01
   initProvider:
-    location: germanywestcentral
+    location: "Germany West Central"
   compositionSelector:
     matchLabels:
       provider: azure
@@ -29,7 +29,7 @@ metadata:
 spec:
   id: silly-demo-db-20240807183654
   initProvider:
-    location: germanywestcentral
+    location: "Germany West Central"
   compositionSelector:
     matchLabels:
       provider: azure
@@ -45,7 +45,7 @@ metadata:
 spec:
   id: silly-demo
   initProvider:
-    location: germanywestcentral
+    location: "Germany West Central"
   compositionSelector:
     matchLabels:
       type: backend-db
