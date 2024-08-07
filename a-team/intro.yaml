@@ -5,6 +5,8 @@ metadata:
   name: cluster-01
 spec:
   id: cluster01
+  initProvider:
+    location: germanywestcentral
   compositionSelector:
     matchLabels:
       provider: azure
@@ -26,6 +28,8 @@ metadata:
   name: silly-demo-db
 spec:
   id: silly-demo-db-20240807183654
+  initProvider:
+    location: germanywestcentral
   compositionSelector:
     matchLabels:
       provider: azure
@@ -40,6 +44,8 @@ metadata:
   name: silly-demo
 spec:
   id: silly-demo
+  initProvider:
+    location: germanywestcentral
   compositionSelector:
     matchLabels:
       type: backend-db
